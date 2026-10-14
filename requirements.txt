@@ -1,0 +1,9 @@
+# Tested application is intended for Python 3.12 on Apple Silicon (macOS).
+# Rapid-MLX provides the MLX image backend and local /v1/images API.
+rapid-mlx[image]==0.16.1
+
+# Gradio browser UI, HTTP client, PNG processing and `hf download` CLI.
+gradio>=5.0,<7.0
+requests>=2.31,<3.0
+Pillow>=10.0,<13.0
+huggingface_hub[hf_xet]>=0.34,<2.0
